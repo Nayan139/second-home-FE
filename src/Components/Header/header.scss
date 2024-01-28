@@ -1,0 +1,20 @@
+@import "../../Css/Colours.scss";
+.header {
+  height: 5rem;
+  width: 100%;
+  color: $color-white;
+  background-color: $color-contrast-purple;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  .header-logo {
+    padding-left: 1rem;
+  }
+  .header-auth {
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+  }
+}

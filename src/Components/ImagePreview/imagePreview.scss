@@ -1,0 +1,12 @@
+.image-component {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  .img-input {
+    display: flex;
+    justify-content: center;
+  }
+  .clear-action {
+    margin: 1rem 0;
+  }
+}

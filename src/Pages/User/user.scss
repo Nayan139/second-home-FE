@@ -1,0 +1,29 @@
+@import "../../Css/colours";
+
+.container-user {
+  display: flex;
+  .user-layout {
+    width: 80vw;
+    height: calc(100vh - 5rem);
+    overflow-y: scroll;
+    .user-title {
+      margin-left: 1rem;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: $color-purple;
+    }
+    .user-table {
+      padding: 1rem 1rem;
+      .table-head-cell-custom {
+        color: $color-contrast-purple;
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+      .table-cell-custom {
+        color: $color-primary !important;
+        font-weight: 600;
+      }
+    }
+  }
+}

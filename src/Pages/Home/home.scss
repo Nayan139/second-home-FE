@@ -1,0 +1,76 @@
+@import "../../Css/colours";
+.home-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $color-purple;
+  .search-action {
+    display: flex;
+    width: 30%;
+  }
+  .listing-container {
+    margin: 1.5rem 0;
+  }
+  .property-card {
+    display: grid;
+    border: 2px solid;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem 1rem;
+    background-color: $color-highlight-inactive;
+    grid-template-columns: 1fr 3fr;
+    .contact-action {
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+    }
+    .property-details {
+      padding: 0 0.75rem;
+      .property-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+    .property-amenites {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      .amenity {
+        margin: 0.5rem 0.5rem 0.5rem 0;
+        padding: 0.25rem 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 0.25rem;
+        color: $color-purple-2;
+      }
+    }
+  }
+}
+h2 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  color: $color-purple;
+}
+.property-id {
+  display: flex;
+  align-items: center;
+  p {
+    color: $color-purple-2;
+  }
+}
+
+.owner {
+  h4 {
+    color: $color-dynamic-orange !important;
+    font-weight: 800;
+  }
+  p {
+    color: $bg-warning-dark;
+    font-weight: 600;
+  }
+}
