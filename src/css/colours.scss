@@ -1,19 +1,14 @@
-//Main colors & Primary colors
 $color-dynamic-orange: #ff7b00;
 $color-sun-yellow: #fff200;
 $color-purple: #4d2e73;
 $color-gray: #535353;
 
-//Primary Gradients
-
-//Secondary colors
 $color-contrast-purple: #1f0044;
 $color-health-green: #4cb210;
 $color-cyan-sky: #00badb;
 $color-kind-magenta: #d55de9;
 $color-attention-red: #d41f4b;
 
-//Shades of grays
 $color-gray-90: #6d6d6d;
 $color-gray-80: #6e6e6e;
 $color-gray-70: #aeaeae;
@@ -30,7 +25,6 @@ $color-grey-twentysix: #e8e5ec;
 $color-grey-two: #c2c2c2;
 $color-gray-11: #f0f4f8;
 
-//Shades of purple
 $color-purple-2: #6d5787;
 $color-purple-3: #a695ba;
 $color-purple-4: #ddceee;
@@ -41,17 +35,13 @@ $color-purple-8: #fcfcfd;
 $color-purple-9: #7a00e6;
 $color-purple-10: #23004c;
 
-//Shades of orange
 $color-dynamic-orange-90: #db6a00;
 
-// shades of magenta
 $color-dynamic-magenta-90: #a645b6;
 
-//common colors
 $color-white: #fff;
 $color-black: #000;
 
-// Grays
 $color-grey-shade-1: $color-gray-60;
 $color-grey-shade-2: $color-gray;
 $color-grey-shade-3: #bdcfe6;
@@ -72,7 +62,6 @@ $color-grey-thirtynine: #d6dee1;
 $color-grey-forty: #a8bbbf;
 $color-grey-nineteen: #f4f9ff;
 
-// Primary
 $color-primary: $color-contrast-purple;
 $color-primary-bg: $color-white;
 $color-primary-text: $color-white;
@@ -87,14 +76,12 @@ $color-primary-text-disabled: #e9eef8;
 $color-primary-box: #f4f7fa;
 $color-primary-alt-hover: #d55de9;
 
-// primary button colours
 $color-primary-button-left: #fff200;
 $color-primary-button-right: #ff7b00;
 $color-primary-button-icon: #ff7b00;
 
 $color-primary-border-disabled: #e8eff6;
 
-// secondary colours
 $color-secondary: $color-purple-3;
 $color-secondary-hover: $color-purple-4;
 $color-secondary-border: $color-purple-4;
@@ -104,7 +91,6 @@ $color-secondary-border-hover: $color-grey-shade-3;
 $color-secondary-text: #512b7e;
 $color-secondary-text-hover: #512b7e;
 $color-secondary-100: #aea0c0;
-// secondary button color
 $color-secondary-button: $color-primary;
 $color-secondary-button-text: $color-primary-text;
 $color-secondary-button-hover: linear-gradient(
@@ -112,10 +98,6 @@ $color-secondary-button-hover: linear-gradient(
   $color-primary,
   #d55de9
 );
-
-// gradient color
-// $color-primary-gradient: linear-gradient(to bottom right, $color-dynamic-orange, $color-sun-yellow);
-// $colour-secondary-gradient : linear-gradient(to bottom right, $color-purple, $color-contrast-purple);
 
 $color-primary-gradient-main-0: linear-gradient(
   0deg,
@@ -264,14 +246,12 @@ $color-primary-alternative-gradient-magenta-red-135: linear-gradient(
   $color-attention-red 100%
 );
 
-//Toolbar
 $color-primary-toolbar-gradient: linear-gradient(
   to left,
   $color-secondary,
   $color-primary 20%
 );
 
-// blue
 $color-blue-one: #eef4ff;
 $color-blue-two: #dae5f1;
 $color-blue-three: #a6b2bf;
@@ -281,7 +261,6 @@ $color-blue-six: #d6dee1;
 $color-blue-seven: #fafbfd;
 $color-blue-eight: #e5e7e9;
 
-// Highlights
 $color-highlight-disabled: $color-primary-disabled;
 $color-highlight-inactive: #e6f2ff;
 $color-highlight-inactive-hover: #c2b7d0;
@@ -293,7 +272,6 @@ $color-highlight-text: $color-white;
 $color-highlight-active: #ff7b00;
 $color-highlight-text-inactive-hover: #acacac;
 
-/// tertiary colours
 $color-tertiary: $color-white;
 $color-highlight-one: $color-dynamic-orange;
 $color-highlight-eight: $color-sun-yellow;
@@ -302,11 +280,9 @@ $color-stepper-active: #004392;
 
 $color-step-background: #fafbfd;
 
-// Admin colours
 $highlight-admin: #8cc63f;
 $colour16: #4cb210;
 
-// Misc $colours
 $white-bg: $color-white !default;
 $transparent-bg: transparent !default;
 $white-color: #ffffff !default;
@@ -323,7 +299,6 @@ $color-gray-light: #f3f4f9;
 $bg-warning-light: #ffc600;
 $bg-warning-dark: #f93;
 $gray-background-color: #f4f2f5 !default;
-//box shadow
 $color-neutral-100: linear-gradient(
     0deg,
     rgba(253, 253, 253, 0.9),
@@ -337,7 +312,6 @@ $dropdown-shadow: 0 2px rgba(17, 16, 15, 0.1), 0 2px 10px rgba(17, 16, 15, 0.1);
 $default-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
 $box-shadow-1: 0 3px 8px rgba(0, 0, 0, 0.24);
 
-// primary button gradient color
 $color-primary-button: linear-gradient(
   to left bottom,
   $color-dynamic-orange,
